@@ -66,10 +66,9 @@ const Stages: React.FC = () => {
         <StagesImage />
       </div>
 
-      <Button
-        buttonSize="large"
-        className={styles.bid}
-      >Подать заявку</Button>
+      <Button buttonSize="large" className={styles.bid}>
+        Подать заявку
+      </Button>
     </section>
   )
 }

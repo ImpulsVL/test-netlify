@@ -1,6 +1,6 @@
+import MainPage from '@/app/main/MainPage'
 import { LogoutBtn } from '@/features/auth/logout'
 import { CheckUser } from '@/shared/api/user'
-import MainPage from './main/MainPage'
 
 export default async function Home() {
   const user = await CheckUser()
@@ -14,5 +14,9 @@ export default async function Home() {
     )
   }
 
-  return <div><MainPage /></div>
+  return (
+    <div>
+      <MainPage />
+    </div>
+  )
 }

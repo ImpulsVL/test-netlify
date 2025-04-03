@@ -9,9 +9,18 @@ import Pc from '/src/shared/assets/icons/pc.svg'
 import Figma from '/src/shared/assets/icons/figma.svg'
 import MainImage from '/src/shared/assets/images/mainPage.svg'
 
-import { ModalName } from '@/app/main/MainPage'
+// import { ModalName } from '@/app/main/MainPage'
 
 import styles from './Directions.module.scss'
+
+type ModalName =
+  | 'systemAnalyst'
+  | 'projectManager'
+  | 'frontEnd'
+  | 'backEnd'
+  | 'test'
+  | 'ceo'
+  | 'designer'
 
 type DirectionsProps = {
   openModal: (modalName: ModalName) => void

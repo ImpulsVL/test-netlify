@@ -52,7 +52,9 @@ const eslintConfig = [
             'next/link',
             'next/headers',
             'next/navigation',
-            '@hookform/resolvers/zod'
+            '@hookform/resolvers/zod',
+            'app/main/**',
+            'app/main/MainPage'
           ]
         }
       ],
