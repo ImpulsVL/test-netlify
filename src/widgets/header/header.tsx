@@ -4,17 +4,13 @@ import Logo from '../../shared/assets/icons/logo.svg'
 
 import styles from './header.module.scss'
 
-const Header = ({}) => {
+const Header = ({ }) => {
   return (
     <header className={styles.header}>
       <Logo />
       <div className={styles.buttons}>
-        <Button
-          buttonSize="large"
-          mode="secondary"
-          href="#"
-        >Регистрация</Button>
-        <Button buttonSize="large" href="#" >Вход</Button>
+        <Button buttonSize="large" mode="secondary" href="#">Регистрация</Button>
+        <Button buttonSize="large" href="#">Вход</Button>
       </div>
     </header>
   )
